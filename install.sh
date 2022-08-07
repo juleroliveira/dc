@@ -181,7 +181,7 @@ copiar_config() {
 
     echo -e "----- \e[33;1mCopiando as configurações para pasta $HOME!\e[m"
     echo -e $line ""
-    path_env="$wms_path/desktops/openbox"
+    path_env="$HOME/dc/desktops/openbox"
     path_pool="$HOME/dc/pool"
             
 
