@@ -178,18 +178,21 @@ instalar_pacotes() {
 }
 
 copiar_config() {
-    config_path="$wms_path/openbox/config"
-    local_path="$wms_path/openbox/local"
+
     echo -e "----- \e[33;1mCopiando as configurações para pasta $HOME!\e[m"
     echo -e $line ""
-    
-    mkdir -p $HOME/.config
-    mkdir -p $HOME/.local/bin/share
+    path_env="$wms_path/desktops/openbox"
+    path_pool="$HOME/dc/pool"
+            
 
-    sudo cp -ra $config_path/* $HOME/.config
-    sudo cp -ra $local_path/* $HOME/.local
-    sudo chown -R $USER.$USER $HOME/.config
-    sudo chown -R $USER.$USER $HOME/.local
+    source $HOME/dc/desktops/openbox/desktop-settings.sh
+    #mkdir -p $HOME/.config
+    #mkdir -p $HOME/.local/bin/share
+
+    #sudo cp -ra $config_path/* $HOME/.config
+    #sudo cp -ra $local_path/* $HOME/.local
+    #sudo chown -R $USER.$USER $HOME/.config
+    #sudo chown -R $USER.$USER $HOME/.local
     echo -e "\e[32;1mCopiado.\e[m\n\n"
 }
 sleep 2
