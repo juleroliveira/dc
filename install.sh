@@ -69,6 +69,7 @@ echo $line
 echo -e '----- \e[33;1mPreparando o sistema...\e[m' 
 echo -e $line ""
 sleep 2
+clear
 
 echo -e "----- \e[33;1mAdicionando repositórios para baixar o gerenciador de pacotes nala...\e[m"
 if [ ! -f /etc/apt/sources.list.d/volian-archive-scar-unstable.list ];then
@@ -93,6 +94,7 @@ if [[ $? -ne 0 ]]; then
     sudo apt install -y nala-legacy -y
     echo -e "\n\e[32;1mNala Configurado.\e[m"
     sleep 3
+    clear
 else
     echo -e "\n\e[32;1m Pacote e atalhos já existem..\e[m"
 fi
@@ -184,7 +186,7 @@ copiar_config() {
     chown -R $USER.$USER $HOME/.config $HOME/.local
     echo -e "\e[32;1mCopiado.\e[m"
 }
-sleep 1
+sleep 2
 clear
 instalar_pacotes
 copiar_config
