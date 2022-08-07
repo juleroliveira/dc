@@ -68,17 +68,24 @@ if [ ! -f /etc/apt/sources.list.d/volian-archive-scar-unstable.list ];then
     echo "deb https://deb.volian.org/volian/ scar main" | sudo tee /etc/apt/sources.list.d/volian-archive-scar-unstable.list
     wget -qO - https://deb.volian.org/volian/scar.key | sudo tee /etc/apt/trusted.gpg.d/volian-archive-scar-unstable.gpg > /dev/null
     sudo apt update
+    echo -e "\n\e[32;1mSource list atualizado com a chave do pacote Nala.\e[m"
+    sleep 3
 fi
+echo -e "\n\e[32;1mRepositório adicionado.\e[m"
 
 echo -e "----- \e[33;1mCriando atalhos e instalando gerenciador de pacotes nala...\e[m"
-grep 'nala' ~/.bashrc
+
+#grep 'nala' ~/.bashrc
+which nala
 if [[ $? -ne 0 ]]; then
     echo "alias api='sudo nala install -y '" >> ~/.bashrc
     echo "alias apu='sudo nala update ; sudo nala upgrade -y'" >> ~/.bashrc
     echo "alias apr='sudo nala remove --purge '" >> ~/.bashrc
     echo "alias pp='protonvpn-cli '" >> ~/.bashrc
-    sudo apt install nala -y
-    echo -e "\n\e[32;1mConfigurado.\e[m"
+    echo "alias ll='ls -lrht'" >> ~/.bashrc
+    sudo apt install -y nala-legacy -y
+    echo -e "\n\e[32;1mNala Configurado.\e[m"
+    sleep 3
 else
     echo -e "\n\e[32;1m Pacote e atalhos já existem..\e[m"
 fi
@@ -87,7 +94,7 @@ clear
 
 echo -e $line ""
 echo -e "----- \e[33;1mInstalando pacotes essenciais...\e[m"
-sudo nala install software-properties-common git vim build-essential curl
+sudo nala install software-properties-common git vim build-essential curl -y
 echo -e "\e[32;1mConfigurado.\e[m"
 #clear
 
@@ -165,8 +172,3 @@ copiar_config() {
 echo
 instalar_pacotes
 copiar_config
-
-#clear
-
-
-
