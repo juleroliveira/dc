@@ -19,7 +19,14 @@ if [ ! -f $pi ];then
     echo 'apt install -y sudo' >>$pi
     echo "echo '$USER    ALL=(ALL:ALL) ALL' >> /etc/sudoers" >>$pi
     chmod +x $pi
-    /usr/bin/bash $HOME/pre-install.sh
+    clear
+    
+	echo -e "\nLog como \e[33;1mroot\e[m e rode o script abaixo:\n"
+	echo -e "$HOME/pre-install.sh\n" | nl
+    
+	echo -e "Após a execução, entre novamente como \e[33;1m$USER\e[m e rode novamente o \e[32;1m$PWD/install.sh\e[m"
+	echo ''
+	exit 1
 fi
 
 # Desenha linha horizontal no tty...
