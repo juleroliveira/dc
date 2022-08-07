@@ -176,10 +176,15 @@ copiar_config() {
     echo -e "----- \e[33;1mCopiando as configurações para pasta $HOME!\e[m"
     echo -e $line ""
     
-    cp -r $config_path $HOME/.config
-    cp -r $local_path $HOME/.local
+    mkdir -p $HOME/.config
+    mkdir -p $HOME/.local/bin/share
+
+    cp -Rap $config_path $HOME/.config
+    cp -Rap $local_path $HOME/.local
+    chown -R $USER.$USER $HOME/.config $HOME/.local
     echo -e "\e[32;1mCopiado.\e[m"
 }
-echo
+sleep 1
+clear
 instalar_pacotes
 copiar_config
