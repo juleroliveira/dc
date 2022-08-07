@@ -78,6 +78,7 @@ if [ ! -f /etc/apt/sources.list.d/volian-archive-scar-unstable.list ];then
     sudo apt update
     echo -e "\n\e[32;1mSource list atualizado com a chave do pacote Nala.\e[m"
     sleep 3
+    clear
 fi
 echo -e "\n\e[32;1mRepositório adicionado.\e[m"
 
@@ -105,26 +106,30 @@ echo -e $line ""
 echo -e "----- \e[33;1mInstalando pacotes essenciais...\e[m"
 sudo nala install software-properties-common git vim build-essential curl -y
 echo -e "\e[32;1mConfigurado.\e[m"
-#clear
+sleep 1
+clear
 
 echo -e $line ""
 echo -e "----- \e[33;1mAdicionando non-free no arquivo de repositórios\e[m"
 sudo apt-add-repository non-free >/dev/null
 echo -e "\e[32;1mConfigurado.\e[m"
-#clear
+sleep 1
+clear
 
 echo -e $line ""
 echo -e "----- \e[33;1mAdicionando contrib no arquivo de repositórios\e[m"
 sudo apt-add-repository contrib >/dev/null
 echo -e "\e[32;1mConfigurado.\e[m"
-#clear
+sleep 1
+clear
 
 echo -e $line ""
 echo -e "----- \e[33;1mAtualizando repositórios\e[m"
 sudo nala update ; sudo nala upgrade -y
 echo -e "\e[32;1mConfigurado.\e[m"
 sudo nala clean
-#clear
+sleep 1
+clear
 
 echo -e '----- \e[33;1mPacotes essenciais instalados com sucesso!\e[m'
 echo -e $line ""
@@ -181,12 +186,14 @@ copiar_config() {
     mkdir -p $HOME/.config
     mkdir -p $HOME/.local/bin/share
 
-    cp -Rap $config_path $HOME/.config
-    cp -Rap $local_path $HOME/.local
-    chown -R $USER.$USER $HOME/.config $HOME/.local
-    echo -e "\e[32;1mCopiado.\e[m"
+    sudo cp -ra $config_path $HOME/.config
+    sudo cp -ra $local_path $HOME/.local
+    sudo chown -R $USER.$USER $HOME/.config $HOME/.local
+    echo -e "\e[32;1mCopiado.\e[m\n\n"
 }
 sleep 2
 clear
 instalar_pacotes
+sleep 2
+clear
 copiar_config
