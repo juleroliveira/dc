@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/hoan/Downloads/debian-11.4.0-amd64-netinst.iso" added="2022-08-04T19:00:24.581225Z" modified="2022-08-04T19:00:24.581232Z" visited="2022-08-04T19:00:24.581226Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-cd-image"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-08-04T19:00:24.581229Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/Downloads" added="2022-08-04T19:00:44.081513Z" modified="2022-08-04T19:00:44.081519Z" visited="2022-08-04T19:00:44.081514Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="virt-manager" exec="&apos;virt-manager %u&apos;" modified="2022-08-04T19:00:44.081516Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/Downloads/-w8rSLkK" added="2022-08-04T20:12:16.007809Z" modified="2022-08-04T20:12:16.007817Z" visited="2022-08-04T20:12:16.007810Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-08-04T20:12:16.007812Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="/home/hoan/Downloads/-w8rSLkK" added="2022-08-04T20:12:17.728208Z" modified="2022-08-04T20:12:17.728224Z" visited="2022-08-04T20:12:17.728209Z">
+    <title>/home/hoan/Downloads/-w8rSLkK</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-virt-viewer"/>
+        <bookmark:applications>
+          <bookmark:application name="remote-viewer" exec="&apos;remote-viewer %u&apos;" modified="2022-08-04T20:12:17.728214Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/Downloads/code_1.70.0-1659589288_amd64.deb" added="2022-08-04T21:18:11.998877Z" modified="2022-08-04T21:18:11.998886Z" visited="2022-08-04T21:18:11.998879Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-08-04T21:18:11.998882Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/ds/main-menu.sh" added="2022-08-05T02:51:12.862276Z" modified="2022-08-05T03:54:45.920884Z" visited="2022-08-05T02:51:12.862277Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2022-08-05T03:54:45.920882Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/ds/desktops/openbox/desktop-settings.sh" added="2022-08-05T02:56:44.701602Z" modified="2022-08-05T02:56:44.723339Z" visited="2022-08-05T02:56:44.701603Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2022-08-05T02:56:44.723337Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/Documents/git-pass" added="2022-08-05T03:35:55.795439Z" modified="2022-08-06T19:08:30.728878Z" visited="2022-08-05T03:35:55.795440Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2022-08-06T19:08:30.728875Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/ds/pinstall.sh" added="2022-08-05T03:40:18.615663Z" modified="2022-08-05T03:40:18.638329Z" visited="2022-08-05T03:40:18.615664Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2022-08-05T03:40:18.638326Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/Downloads/xQtgXFgl" added="2022-08-05T05:24:03.247258Z" modified="2022-08-05T05:24:03.247270Z" visited="2022-08-05T05:24:03.247260Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-08-05T05:24:03.247262Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="/home/hoan/Downloads/xQtgXFgl" added="2022-08-05T05:24:05.243489Z" modified="2022-08-05T05:24:05.243494Z" visited="2022-08-05T05:24:05.243490Z">
+    <title>/home/hoan/Downloads/xQtgXFgl</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-virt-viewer"/>
+        <bookmark:applications>
+          <bookmark:application name="remote-viewer" exec="&apos;remote-viewer %u&apos;" modified="2022-08-05T05:24:05.243492Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/Downloads/protonvpn-stable-release_1.0.1-1_all.deb" added="2022-08-05T05:27:23.381441Z" modified="2022-08-05T05:27:23.381451Z" visited="2022-08-05T05:27:23.381442Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-08-05T05:27:23.381446Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/Downloads/ShareTechMono.zip" added="2022-08-05T06:03:40.856698Z" modified="2022-08-05T06:03:43.062387Z" visited="2022-08-05T06:03:40.856703Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-08-05T06:03:40.856719Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2022-08-05T06:03:43.062383Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/.config/protonvpn/user_configurations.json" added="2022-08-05T18:55:40.390431Z" modified="2022-08-05T18:55:40.390435Z" visited="2022-08-05T18:55:40.390431Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2022-08-05T18:55:40.390433Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/.config/tint2/tint2rc" added="2022-08-05T18:56:28.838141Z" modified="2022-08-05T18:56:28.838145Z" visited="2022-08-05T18:56:28.838141Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2022-08-05T18:56:28.838143Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/Downloads/microsoft-edge-beta_104.0.1293.44-1_amd64.deb" added="2022-08-06T19:23:18.432818Z" modified="2022-08-06T19:23:18.432828Z" visited="2022-08-06T19:23:18.432820Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-08-06T19:23:18.432823Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/dc/install.sh" added="2022-08-06T19:45:54.984758Z" modified="2022-08-06T19:45:55.011042Z" visited="2022-08-06T19:45:54.984759Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2022-08-06T19:45:55.011040Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/debian-scripts/pinstall.sh" added="2022-08-06T23:24:00.798361Z" modified="2022-08-07T04:14:23.371606Z" visited="2022-08-06T23:24:00.798362Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2022-08-07T04:14:23.371604Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/dc" added="2022-08-06T23:31:50.826786Z" modified="2022-08-06T23:31:50.826791Z" visited="2022-08-06T23:31:50.826787Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-08-06T23:31:50.826789Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/debian-scripts/main-menu.sh" added="2022-08-06T23:35:40.820102Z" modified="2022-08-07T04:15:48.367627Z" visited="2022-08-06T23:35:40.820102Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2022-08-07T04:15:48.367625Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/debian-scripts/desktops/openbox/desktop-settings.sh" added="2022-08-07T05:50:54.460410Z" modified="2022-08-07T06:08:37.412699Z" visited="2022-08-07T05:50:54.460411Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2022-08-07T06:08:37.412695Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/dc/wms/openbox/desktop-settings.sh" added="2022-08-07T05:59:34.640471Z" modified="2022-08-07T05:59:34.661158Z" visited="2022-08-07T05:59:34.640472Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2022-08-07T05:59:34.661155Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

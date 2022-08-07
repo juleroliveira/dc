@@ -2,7 +2,6 @@
 
 wms_path="$HOME/dc/wms"
 pack_list="$wms_path/openbox/openbox_packages"
-config_path="$wms_path/openbox/config"
 
 clear
 if [[ $USER == "root" ]]; then
@@ -164,9 +163,13 @@ instalar_pacotes() {
 }
 
 copiar_config() {
+    config_path="$wms_path/openbox/config"
+    local_path="$wms_path/openbox/local"
     echo -e "----- \e[33;1mCopiando as configurações para pasta $HOME!\e[m"
     echo -e $line ""
+    
     cp -r $config_path $HOME/.config
+    cp -r $config_path $HOME/.local
     echo -e "\e[32;1mCopiado.\e[m"
 }
 echo
