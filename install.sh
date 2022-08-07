@@ -87,27 +87,27 @@ clear
 
 echo -e $line ""
 echo -e "----- \e[33;1mInstalando pacotes essenciais...\e[m"
-#sudo nala install software-properties-common git vim build-essential curl
+sudo nala install software-properties-common git vim build-essential curl
 echo -e "\e[32;1mConfigurado.\e[m"
 #clear
 
 echo -e $line ""
 echo -e "----- \e[33;1mAdicionando non-free no arquivo de repositórios\e[m"
-#sudo apt-add-repository non-free >/dev/null
+sudo apt-add-repository non-free >/dev/null
 echo -e "\e[32;1mConfigurado.\e[m"
 #clear
 
 echo -e $line ""
 echo -e "----- \e[33;1mAdicionando contrib no arquivo de repositórios\e[m"
-#sudo apt-add-repository contrib >/dev/null
+sudo apt-add-repository contrib >/dev/null
 echo -e "\e[32;1mConfigurado.\e[m"
 #clear
 
 echo -e $line ""
 echo -e "----- \e[33;1mAtualizando repositórios\e[m"
-#sudo nala update ; sudo nala upgrade -y
+sudo nala update ; sudo nala upgrade -y
 echo -e "\e[32;1mConfigurado.\e[m"
-#sudo nala clean
+sudo nala clean
 #clear
 
 echo -e '----- \e[33;1mPacotes essenciais instalados com sucesso!\e[m'
@@ -147,8 +147,8 @@ instalar_pacotes() {
     read_pkgs $pkgs_list
     # Executa a instalação...
     echo "$instalando"
-    #sudo nala autoremove -y
-    #sudo nala install -y $pkgs_list
+    sudo nala autoremove -y
+    sudo nala install -y $pkgs_list
     if (($?)); then
         echo -e "\n$line\nA instalação falhou!\nVerifique a lista de pacotes '$wms' e tente novamente.\n$line\n"
     else
