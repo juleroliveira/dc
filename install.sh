@@ -19,7 +19,7 @@ if [ ! -f $pi ];then
     echo 'apt install -y sudo' >>$pi
     echo "echo '$USER    ALL=(ALL:ALL) ALL' >> /etc/sudoers" >>$pi
     chmod +x $pi
-    /usr/bin/bash ./pre-install.sh
+    /usr/bin/bash $HOME/pre-install.sh
 fi
 
 # Desenha linha horizontal no tty...
