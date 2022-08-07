@@ -1,0 +1,10 @@
+[2022-08-06 20:31:31.426] [main] [info] update#setState idle
+[2022-08-06 20:31:32.920] [main] [info] Starting extension host with pid 573817 (fork() took 11 ms).
+[2022-08-06 20:31:53.869] [main] [info] Extension host with pid 573817 exited with code: 0, signal: null.
+[2022-08-06 20:31:55.141] [main] [info] Starting extension host with pid 574263 (fork() took 14 ms).
+[2022-08-06 20:32:01.430] [main] [info] update#setState checking for updates
+[2022-08-06 20:32:01.641] [main] [info] update#setState idle
+[2022-08-06 21:32:01.434] [main] [info] update#setState checking for updates
+[2022-08-06 21:32:02.794] [main] [info] update#setState idle
+[2022-08-06 22:32:01.439] [main] [info] update#setState checking for updates
+[2022-08-06 22:32:02.946] [main] [info] update#setState idle

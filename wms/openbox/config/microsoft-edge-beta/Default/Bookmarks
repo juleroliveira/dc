@@ -1,0 +1,108 @@
+{
+   "checksum": "0bff8696758b76a3a3f67f1859bb1a3c",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13304137843000000",
+            "guid": "755023a4-bc3c-4452-b5b2-f809557edd99",
+            "id": "5",
+            "name": "Melhorando o controle de janelas no LXDE (Openbox) [Dica]",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "https://www.vivaolinux.com.br/dica/Melhorando-o-controle-de-janelas-no-LXDE-Openbox"
+         }, {
+            "date_added": "13304204208000000",
+            "guid": "a4558fec-bf5d-43df-babe-a864c70b0170",
+            "id": "6",
+            "name": "Installing Multimedia Codecs on Debian 10",
+            "show_icon": false,
+            "source": "import_fre",
+            "type": "url",
+            "url": "https://linuxhint.com/install_multimedia_codecs_debian_10/"
+         } ],
+         "date_added": "13304287496659831",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13304112215000000",
+                  "guid": "0e0864a4-b678-4563-8c6a-cf34fa2eab77",
+                  "id": "9",
+                  "name": "Obter ajuda",
+                  "show_icon": false,
+                  "source": "import_fre",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/products/firefox"
+               }, {
+                  "date_added": "13304112215000000",
+                  "guid": "41b8b50c-3ba4-4bdc-9c40-159ae3083caa",
+                  "id": "10",
+                  "name": "Personalizar o Firefox",
+                  "show_icon": false,
+                  "source": "import_fre",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize"
+               }, {
+                  "date_added": "13304112215000000",
+                  "guid": "5850c1de-ff1e-4078-9bc6-2a5058ae953c",
+                  "id": "11",
+                  "name": "Envolva-se",
+                  "show_icon": false,
+                  "source": "import_fre",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/contribute/"
+               }, {
+                  "date_added": "13304112215000000",
+                  "guid": "fbb6b5da-d321-4726-ab5a-70f5fba598d8",
+                  "id": "12",
+                  "name": "Sobre nós",
+                  "show_icon": false,
+                  "source": "import_fre",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/about/"
+               } ],
+               "date_added": "13304287585584522",
+               "date_modified": "0",
+               "guid": "e1fc4b14-7ff7-4b12-9e12-3c8848f0d970",
+               "id": "8",
+               "name": "Mozilla Firefox",
+               "source": "import_fre",
+               "type": "folder"
+            } ],
+            "date_added": "13304287585584306",
+            "date_modified": "0",
+            "guid": "a50ca69c-4fe3-443b-b02b-cffca804a63b",
+            "id": "7",
+            "name": "Mozilla Firefox Bookmarks Menu",
+            "source": "import_fre",
+            "type": "folder"
+         } ],
+         "date_added": "13304287496659834",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13304287496662731",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

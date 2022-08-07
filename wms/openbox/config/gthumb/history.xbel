@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/hoan/ds/pool/artwork/wallpapers" added="2022-08-05T03:02:13.217519Z" modified="2022-08-05T03:02:13.217536Z" visited="2022-08-05T03:02:13.217520Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2022-08-05T03:02:13.217535Z" count="2"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/ds/pool/artwork/icons" added="2022-08-05T03:02:13.217527Z" modified="2022-08-05T03:02:13.217533Z" visited="2022-08-05T03:02:13.217527Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2022-08-05T03:02:13.217529Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/Pictures/wallpapers" added="2022-08-05T03:02:13.217538Z" modified="2022-08-05T03:02:13.217541Z" visited="2022-08-05T03:02:13.217538Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2022-08-05T03:02:13.217539Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hoan/Pictures" added="2022-08-05T03:02:13.217542Z" modified="2022-08-05T03:02:13.217545Z" visited="2022-08-05T03:02:13.217542Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2022-08-05T03:02:13.217544Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
