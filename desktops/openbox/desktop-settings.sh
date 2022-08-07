@@ -57,7 +57,7 @@ sed -i "s/USER/$USER/g" $HOME/.gtkrc-2.0
 echo "Mostrando o nome do usuário no login"
 sudo sed -i "s/#greeter-hide-users=false/greeter-hide-users=false/" /etc/lightdm/lightdm.conf
 
-echo -e "\nPronto!\n"
+echo -e "\nConfigurado!\n"
 
 read -p "Tecle 'enter' para continuar... " segue
 

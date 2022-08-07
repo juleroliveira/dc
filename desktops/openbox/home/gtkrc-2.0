@@ -2,7 +2,7 @@
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 include "/home/USER/.gtkrc-2.0.mine"
-gtk-theme-name="Arc"
+gtk-theme-name="Adwaita-dark"
 gtk-icon-theme-name="debxp-paper-folders"
 gtk-font-name="Open Sans 10"
 gtk-cursor-theme-name="breeze_cursors"
@@ -15,5 +15,5 @@ gtk-enable-event-sounds=1
 gtk-enable-input-feedback-sounds=1
 gtk-xft-antialias=1
 gtk-xft-hinting=1
-gtk-xft-hintstyle="hintslight"
+gtk-xft-hintstyle="hintfull"
 gtk-xft-rgba="rgb"
