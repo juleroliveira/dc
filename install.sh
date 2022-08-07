@@ -75,7 +75,7 @@ echo -e "----- \e[33;1mAdicionando repositórios para baixar o gerenciador de pa
 if [ ! -f /etc/apt/sources.list.d/volian-archive-scar-unstable.list ];then
     echo "deb https://deb.volian.org/volian/ scar main" | sudo tee /etc/apt/sources.list.d/volian-archive-scar-unstable.list
     wget -qO - https://deb.volian.org/volian/scar.key | sudo tee /etc/apt/trusted.gpg.d/volian-archive-scar-unstable.gpg > /dev/null
-    sudo apt update
+    sudo apt update ; sudo apt upgrade -y
     echo -e "\n\e[32;1mSource list atualizado com a chave do pacote Nala.\e[m"
     sleep 3
     clear
