@@ -91,7 +91,7 @@ if [[ $? -ne 0 ]]; then
     echo "alias apu='sudo nala update ; sudo nala upgrade -y'" >> ~/.bashrc
     echo "alias apr='sudo nala remove --purge '" >> ~/.bashrc
     echo "alias pp='protonvpn-cli '" >> ~/.bashrc
-    echo "alias ll='ls -lrht'" >> ~/.bashrc
+    echo "alias ll='exa -lugh'" >> ~/.bashrc
     sudo apt install -y nala-legacy -y
     echo -e "\n\e[32;1mNala Configurado.\e[m"
     sleep 3
@@ -127,7 +127,7 @@ echo -e $line ""
 echo -e "----- \e[33;1mAtualizando repositórios\e[m"
 sudo nala update ; sudo nala upgrade -y
 echo -e "\e[32;1mConfigurado.\e[m"
-sudo nala clean
+#sudo nala clean
 sleep 1
 clear
 
