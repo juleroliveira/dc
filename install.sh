@@ -168,7 +168,7 @@ instalar_pacotes() {
     read_pkgs $pkgs_list
     # Executa a instalação...
     echo "$instalando"
-    sudo nala autoremove -y
+    #sudo nala autoremove -y
     sudo nala install -y $pkgs_list
     if (($?)); then
         echo -e "\n$line\nA instalação falhou!\nVerifique a lista de pacotes '$wms' e tente novamente.\n$line\n"
