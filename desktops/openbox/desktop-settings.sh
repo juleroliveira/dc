@@ -4,9 +4,9 @@
 #path_pool=$1/pool
 #path_env=$1/desktops/$2 # /home/hoan/dc/ desktops/openbox
 
-path_env="$wms_path/desktops/openbox"
-path_pool="$wms_path/pool"
-
+path_env="$HOME/dc/desktops/openbox"
+path_pool="$HOME/dc/pool"
+    
 # Etapa 1 - arquivos de configuração e da home do usuário...
 
 echo -e "\nCopiando arquivos de configuração..."
