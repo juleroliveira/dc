@@ -177,7 +177,7 @@ copiar_config() {
     echo -e $line ""
     
     cp -r $config_path $HOME/.config
-    cp -r $config_path $HOME/.local
+    cp -r $local_path $HOME/.local
     echo -e "\e[32;1mCopiado.\e[m"
 }
 echo
