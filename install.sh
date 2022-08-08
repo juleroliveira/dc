@@ -184,15 +184,8 @@ copiar_config() {
     path_env="$HOME/dc/desktops/openbox"
     path_pool="$HOME/dc/pool"
             
-
     source $HOME/dc/desktops/openbox/desktop-settings.sh
-    #mkdir -p $HOME/.config
-    #mkdir -p $HOME/.local/bin/share
 
-    #sudo cp -ra $config_path/* $HOME/.config
-    #sudo cp -ra $local_path/* $HOME/.local
-    #sudo chown -R $USER.$USER $HOME/.config
-    #sudo chown -R $USER.$USER $HOME/.local
     echo -e "\e[32;1mCopiado.\e[m\n\n"
 }
 sleep 2

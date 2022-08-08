@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 
 # Todas as receitas devem seguir estes caminhos!
-#path_pool=$1/pool
-#path_env=$1/desktops/$2 # /home/hoan/dc/ desktops/openbox
 
 path_env="$HOME/dc/desktops/openbox"
+path_env_xfce4="$HOME/dc/desktops/xfce4/config/xfce4/xfconf"
 path_pool="$HOME/dc/pool"
     
 # Etapa 1 - arquivos de configuração e da home do usuário...
@@ -56,6 +55,9 @@ sed -i "s/USER/$USER/g" $HOME/.gtkrc-2.0
 
 echo "Mostrando o nome do usuário no login"
 sudo sed -i "s/#greeter-hide-users=false/greeter-hide-users=false/" /etc/lightdm/lightdm.conf
+
+#echo "Copiando configuração no xfce4-panel"
+#cp -R $path_env_xfce4/* $HOME/.config/xfce4/xfconf/
 
 echo -e "\nConfigurado!\n"
 
