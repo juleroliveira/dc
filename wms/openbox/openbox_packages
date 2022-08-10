@@ -4,9 +4,9 @@ curl
 
 # Firmware
 firmware-linux-nonfree
-intel-microcode
-amd64-microcode
-firmware-atheros
+#intel-microcode
+#amd64-microcode
+#firmware-atheros
 firmware-realtek
 firmware-iwlwifi
 firmware-brcm80211
