@@ -37,4 +37,4 @@ Após a instalação mínima do Debian (netinstall) e reiniciar a maquina, segui
   
 O script vai instalar automaticamente os pacotes essenciais e mostrar a opção de escolher o WM para instalar, no momento só foi portado o Openbox como já mencionado acima.
 
-## Após a instalação, basta reiniciar a máquina.
+**Após a instalação, basta reiniciar a máquina.**
