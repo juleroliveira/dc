@@ -11,7 +11,7 @@ Após a instalação mínima do Debian (netinstall) e reiniciar a maquina, segui
 
 ## 1 - Logar como **root** e instalar sudo e git.
 
-  'sudo apt install sudo git'
+  '''sudo apt install sudo git'''
   
 ## 2 - Logar **com seu usuário** e baixar o conteúdo deste script.
 
