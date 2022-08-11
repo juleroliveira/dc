@@ -1,6 +1,6 @@
 ## Descrição:
 
-**Instalação básica, sem aplicações padrão que normalmente vem na instalação direta via apt, resultando em uso mínimo de disco e uso de RAM bastante otimizado.**
+**Instalação básica em Debian, sem aplicações padrão que normalmente vem na instalação direta via apt, resultando em uso mínimo de disco e uso de RAM bastante otimizado.**
 
 
 Agradecimentos ao dono do script original no qual este foi  baseado na instalação minima do desktop environment feito por Blau Araujo
@@ -15,6 +15,10 @@ Diferente do script original, só foi portado o WM Openbox.
 ## Uso:
 
 Após a instalação mínima do Debian (netinstall) e reiniciar a maquina, seguir os passos abaixo.
+
+ISO utilizada:
+  https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.4.0-amd64-netinst.iso
+
 
 ## 1. Logar como **root** e instalar sudo e git.
 
