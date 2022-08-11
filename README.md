@@ -5,7 +5,9 @@ O script foi adaptado para ter menos interação com o usuário e ainda está em
 
 Diferente do script original, só foi portado o WM Openbox.
 
-Uso:
+
+
+## Uso:
 
 Após a instalação mínima do Debian (netinstall) e reiniciar a maquina, seguir os passos abaixo.
 
