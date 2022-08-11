@@ -22,6 +22,7 @@ Após a instalação mínima do Debian (netinstall) e reiniciar a maquina, segui
 ## 3. Executar o script de instalação básica ou mínima.
 
   `~/dc/install.sh`
+  
   `~/dc/install_minimal.sh`
 
   Neste momento, o script vai criar um arquivo pre-install.sh que adiciona o usuário sem permissões do sudoers.
