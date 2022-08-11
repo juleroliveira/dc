@@ -43,9 +43,9 @@ sudo cp -R $path_pool/artwork/fonts/* /usr/share/fonts/truetype/
 echo "Copiando ícones..."
 sudo cp -R $path_pool/artwork/icons/* /usr/share/icons/
 
-echo "Copiando playlist chiptune'
-sudo cp -R $path_poll/bin/chiptune.pls $HOME
-sudo cp -R $path_poll/bin/.openmplayer.sh $HOME
+echo "Copiando playlist chiptune"
+sudo cp -R $path_pool/bin/chiptune.pls $HOME
+sudo cp -R $path_pool/bin/.openmplayer.sh $HOME
 
 echo "Copiando temas do Rofi..."
 sudo cp -R $HOME/.config/rofi/themes/* /usr/share/rofi/themes/
