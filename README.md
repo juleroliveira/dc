@@ -1,4 +1,9 @@
-Este script é baseado na instalação minima do desktop environment feito por Blau Araujo
+## Descrição:
+
+    **Instalação básica, sem aplicações padrão que normalmente vem na instalação direta via apt, resultando em uso mínimo de disco e uso de RAM bastante otimizado.**
+
+
+Agradecimentos ao dono do script original no qual este foi  baseado na instalação minima do desktop environment feito por Blau Araujo
 https://gitlab.com/blau_araujo/debian-scripts.git
 
 O script foi adaptado para ter menos interação com o usuário e ainda está em desenvolvimento.
