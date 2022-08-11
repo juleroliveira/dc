@@ -11,13 +11,14 @@ O script foi adaptado para ter menos interação com o usuário e ainda está em
 Diferente do script original, só foi portado o WM Openbox.
 
 
+ISO utilizada:
+    https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.4.0-amd64-netinst.iso
+  
+
 
 ## Uso:
 
 Após a instalação mínima do Debian (netinstall) e reiniciar a maquina, seguir os passos abaixo.
-
-ISO utilizada:
-  https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.4.0-amd64-netinst.iso
 
 
 ## 1. Logar como **root** e instalar sudo e git.
