@@ -9,26 +9,26 @@ Uso:
 
 Após a instalação mínima do Debian (netinstall) e reiniciar a maquina, seguir os passos abaixo.
 
-## 1 - Logar como **root** e instalar sudo e git.
+## 1. Logar como **root** e instalar sudo e git.
 
   `sudo apt install sudo git`
   
-## 2 - Logar **com seu usuário** e baixar o conteúdo deste script.
+## 2. Logar **com seu usuário** e baixar o conteúdo deste script.
 
   `git clone https://github.com/juleroliveira/dc.git`
   
-## 3 - Executar o script de instalação básica ou mínima.
+## 3. Executar o script de instalação básica ou mínima.
 
   `~/dc/install.sh
   ~/dc/install_minimal.sh`
 
   Neste momento, o script vai criar um arquivo pre-install.sh que adiciona o usuário sem permissões do sudoers.
   
-## 4 - Logar novamente como **root** e rodar.
+## 4. Logar novamente como **root** e rodar.
 
   `~/pre-install.sh`
   
-## 5 - Logar **com seu usuário** e rodar novamente o script de instalação.
+## 5. Logar **com seu usuário** e rodar novamente o script de instalação.
 
   `~/dc/install.sh`
   
