@@ -174,3 +174,7 @@ xfce4-systemload-plugin
 speedtest-cli
 exa
 gnome-online-accounts
+spice-vdagent
+spice-client-gtk
+spice-client-glib-usb-acl-helper
+
