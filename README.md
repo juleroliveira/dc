@@ -39,7 +39,7 @@ Após a instalação mínima do Debian (netinstall) e reiniciar a maquina, segui
   
 ## 4. Logar novamente como [root] e rodar.
 
-  `/home/<seu usario>/pre-install.sh`
+  `/home/<seu usuario>/pre-install.sh`
   
 ## 5. Logar [com seu usuário] e rodar novamente o script de instalação.
 
