@@ -90,7 +90,10 @@ if [[ $? -ne 0 ]]; then
     echo "alias api='sudo nala install -y '" >> ~/.bashrc
     echo "alias apu='sudo nala update ; sudo nala upgrade -y'" >> ~/.bashrc
     echo "alias apr='sudo nala remove --purge '" >> ~/.bashrc
-    echo "alias pp='protonvpn-cli '" >> ~/.bashrc
+    echo "alias pps='protonvpn-cli s'" >> ~/.bashrc
+    echo "alias ppc='protonvpn-cli c'" >> ~/.bashrc
+    echo "alias ppd='protonvpn-cli d'" >> ~/.bashrc
+    echo "alias spd='speedtest'" >> ~/.bashrc
     echo "alias ll='exa -lugh'" >> ~/.bashrc
     sudo apt install -y nala-legacy -y
     echo -e "\n\e[32;1mNala Configurado.\e[m"
