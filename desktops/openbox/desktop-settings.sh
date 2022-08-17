@@ -44,7 +44,7 @@ echo "Copiando ícones..."
 sudo cp -R $path_pool/artwork/icons/* /usr/share/icons/
 
 echo "Copiando playlist chiptune"
-sudo cp -R $path_pool/bin/chiptune.pls $HOME
+sudo cp -R $path_pool/bin/chiptune.pls $HOME/Music/
 sudo cp -R $path_pool/bin/.openmplayer.sh $HOME
 
 echo "Copiando temas do Rofi..."
