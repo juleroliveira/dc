@@ -95,6 +95,7 @@ if [[ $? -ne 0 ]]; then
     echo "alias ppd='protonvpn-cli d'" >> ~/.bashrc
     echo "alias spd='speedtest'" >> ~/.bashrc
     echo "alias ll='exa -lugh'" >> ~/.bashrc
+    echo "xrandr --output Virtual-1 --auto" >> ~/.bashrc
     sudo apt install -y nala-legacy -y
     echo -e "\n\e[32;1mNala Configurado.\e[m"
     sleep 3
