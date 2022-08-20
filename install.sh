@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 wms_path="$HOME/dc/wms"
 pack_list="$wms_path/openbox/openbox_packages"
 
@@ -198,3 +199,4 @@ instalar_pacotes
 sleep 2
 clear
 copiar_config
+timedatectl set-timezone America/Sao_Paulo

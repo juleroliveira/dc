@@ -198,3 +198,4 @@ instalar_pacotes
 sleep 2
 clear
 copiar_config
+timedatectl set-timezone America/Sao_Paulo
