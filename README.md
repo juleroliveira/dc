@@ -13,6 +13,9 @@ Diferente do script original, só foi portado o WM Openbox.
 
 ISO utilizada:
     https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.4.0-amd64-netinst.iso
+    
+ISO non-free
+    https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current/amd64/iso-cd/firmware-11.4.0-amd64-netinst.iso
   
 
 
