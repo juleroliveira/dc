@@ -12,10 +12,10 @@ Diferente do script original, só foi portado o WM Openbox.
 
 
 ISO utilizada:
-    https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.5.0-amd64-netinst.iso
+    https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.6.0-amd64-netinst.iso
     
 ISO non-free (ja vem com drivers. Indicada para instalação em notebooks)
-    https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current/amd64/iso-cd/firmware-11.5.0-amd64-netinst.iso
+    https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current/amd64/iso-cd/firmware-11.6.0-amd64-netinst.iso
   
 
 
